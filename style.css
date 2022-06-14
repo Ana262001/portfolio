@@ -1,0 +1,18 @@
+.flex-container {
+  display: flex;
+  background-color: rgb(186, 95, 95);
+  height: 100px;
+  align-items: flex-end;
+}
+.flex-container div {
+  background-color: rgb(129, 157, 227);
+  margin: 5px;
+  width: 40px;
+  
+}
+/* Flex grow da un valor a un elemento de manera que se proyecta en el navegador */
+/* flex sherink  mientras mas alta sea mas se encoje , encoje al elemento esta 
+propiedad o si le pones 0 nunca se va a encojer , depende del valor que le asignes
+*/
+/* align-self  sobre escribe la propiedad de align items del container es como un id le damos a ese mismo esa propiedad
+se separa y se va con una propiedad propia*/
